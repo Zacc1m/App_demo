@@ -1,0 +1,63 @@
+@font-face {
+    font-family:cormarant;
+    src: url(../fonts/CormorantGaramond.otf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: teko;
+    src: url(../fonts/Teko-Regular.ttf);
+}
+
+@font-face {
+    font-family: D-DIN;
+    src: url(../fonts/D-DIN-Bold.otf);
+}
+
+
+
+.cormarant{
+    font-family: cormarant;
+    
+}
+
+.quicksand{
+    font-family: quicksand;
+    
+}
+
+.teko{
+    font-family: teko;
+    /* margin-top: 20px; */
+}
+
+.D-DIN{
+    font-family: D-DIN;
+    
+}
+
+#main_name{
+    /* color: rgb(102, 153, 153); */
+    color: lightsteelblue;
+    text-shadow: -1px 0 indigo, 0 1px indigo, 1px 0 indigo, 0 -1px indigo;
+    display: flex;
+    position: relative;
+
+}
+
+#social-color{
+    /* color: rgb(102, 153, 153); */
+    color: white;
+    text-shadow: -1px 0 indigo, 0 1px indigo, 1px 0 indigo, 0 -1px indigo;
+    display: flex;
+    position: relative;
+}
+
+.education_text{
+    font-family: teko;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}

@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(68, 48, 48);
+    /* background-color: rgba(207, 207, 207, 0.801); */
+    /* background-image: url(../background/cool-background10.png); */
+    
+    color: black;
+    width: 100%;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  
+}
+
+#education_tag{
+    position: relative;
+    top: -10vh;
+}
+
+
+#skills_tag{
+    position: relative;
+    top: -5vh;
+}
+
+#projects_tag{
+    position: relative;
+    top: -5vh;
+}
+
+
+
+ h1.header{
+    color: black;
+    background-color: rgb(85, 84, 146);
+    top: 0px;
+    left: 0px;
+    padding: 5px;
+    margin: 0px;
+    width: 20vw;
+    height: 5vh;
+    position: fixed;
+
+    font-family: "Times New Roman", Times, serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+}
+
+
+p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+
+image{
+    margin-top: 0px;
+}
+
+
+/* ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+} */
+
+/* 
+li{
+    display: inline;
+    padding: 5px;
+} */
+
+
+
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+
+
+.nomp{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/* a:visited {
+  color: rgb(130, 0, 98);
+} */
+
+a:link, a:visited {
+  color: rgb(199, 189, 255);
+  text-decoration: none;
+}
+
+
+
+ul.skills{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.polaroid {
+  width: 10%;
+  /* background-color: white; */
+  margin-bottom: 0px;
+  margin-top: 100px;
+  float: left;
+  margin-right: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.polaroid-end {
+  width: 10%;
+  /* background-color: white; */
+  margin-bottom: 0px;
+  margin-top: 100px;
+  float: left;
+  margin-right: 0vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+/* .container {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  top: 2px;
+  display: flex;
+  justify-self: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: blue;
+} */
+
+
+education_background{
+    
+}
+
+
+
+.socials{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 5rem;
+    /* background-color: #495057; */
+    color: #fff;
+    /* fill: white; */
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: -2rem;
+
+    
+    
+
+}
+
+#mail{
+    background-image: url(../images/mail_white_24dp.svg);
+}
+
+
+#row{
+    display: flex;
+    flex-direction: row;
+}
+h1.education{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3em;
+    margin-right: 30px;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+}
+
+
+
+
+.checktext{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+
+#skills_margin{
+    margin-left: 0px;
+
+
+}
+.pclass {
+    padding: 0px 0px 0px 50px;
+}
+
+#skills_margin2{
+    margin-left: 0px;
+}
+
+
+.solid{
+    outline-style: solid;
+    color: white;
+}
