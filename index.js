@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 
 
-app.get('/portfolio', (req, res) => {
+app.get('/', (req, res) => {
 
     const { portfolio } = req.params;
     res.render('portfolio', {portfolio});
@@ -36,3 +36,8 @@ app.get('/portfolio/photo', (req, res) => {
 
 
 app.set("port", PORT);
+
+
+app.listen(PORT, () => {
+    console.log(`Example app listening on port ${PORT}`)
+  })
