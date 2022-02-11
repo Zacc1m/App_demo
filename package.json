@@ -10,8 +10,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "heroku-postbuild": "npm run build"
-}
-  },
+  };
   "keywords": [],
   "author": "Zaccaria Mir",
   "license": "ISC",
