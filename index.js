@@ -2,7 +2,8 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-// const photoData = require('./data.json');
+
+const PORT = process.env.PORT || '3000';
 
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -34,6 +35,5 @@ app.get('/portfolio/photo', (req, res) => {
 });
 
 
-app.listen(3000, () => {
-    console.log("LISTENING ON PORT 3000")
-});
+app = express();
+app.set("port", PORT);
