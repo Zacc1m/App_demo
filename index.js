@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const photoData = require('./data.json');
+// const photoData = require('./data.json');
 
 
 app.use(express.static(path.join(__dirname, 'public')));
@@ -20,7 +20,7 @@ app.get('/portfolio', (req, res) => {
 
 app.get('/portfolio/photography', (req, res) => {
     const { photography } = req.params;
-    const data = photoData[photography];
+    // const data = photoData[photography];
     if(data) {
         res.render('photography', { ...data })
     }
