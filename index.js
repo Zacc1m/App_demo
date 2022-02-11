@@ -35,5 +35,4 @@ app.get('/portfolio/photo', (req, res) => {
 });
 
 
-app = express();
 app.set("port", PORT);
